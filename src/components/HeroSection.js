@@ -17,6 +17,12 @@ export default function HeroSection({ blok }) {
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
           {blok.text}
         </h1>
+        <a
+          className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300"
+          href="/upload-image"
+        >
+          Go to Upload Page
+        </a>
       </div>
     </section>
   );
